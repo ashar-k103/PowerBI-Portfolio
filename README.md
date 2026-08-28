@@ -1,35 +1,45 @@
-# 📊 Power BI Analytics Dashboard
+# 📊 Sales Performance Dashboard — Power BI
 
-A professional Power BI dashboard designed to transform raw data into actionable business insights through interactive visualizations and structured data modeling.
+A Power BI dashboard built to analyze sales performance across products, months, and countries — tracking revenue, profit, and units sold in one interactive view.
 
----
+This project was built as a self-learning exercise over summer break to practice data visualization, DAX measures, and dashboard design in Power BI.
 
-## 📸 Dashboard Preview
+## 🔍 Overview
 
-*(Take a screenshot of your report page using `Win + Shift + S`, save it, upload it to GitHub, and replace the image URL below)*
+The dashboard consolidates key business metrics into a single-page report with interactive filtering by date range, allowing quick analysis of sales trends, profitability, and regional performance.
 
-![Dashboard Screenshot](https://via.placeholder.com/800x450.png?text=Add+Dashboard+Screenshot+Here)
+## 📈 Key Metrics (KPIs)
 
----
+| Metric | Value |
+|---|---|
+| Total Revenue | $26.42M |
+| Total Units Sold | 264.67K |
+| Total Profit | $3.88M |
+| Profit Margin | 17.21% |
 
-## 📌 Project Overview
-This project analyzes key operational and business metrics to support data-driven decision-making. 
+## 📊 Visuals Included
 
-### Key Features
-* **Interactive Filtering:** Dynamic slicers for real-time data exploration across various categories.
-* **Modern UI/UX Design:** Custom visual containers, clean alignment, and cohesive color formatting for maximum readability.
-* **Structured Data Model:** Clean data schema designed for efficient reporting and measure calculations.
+- **Total Unit Sold & Total Sale$ by Product** — combo chart comparing sales volume and revenue across products (Paseo, VTT, Velo, Montana, Amarilla, Carretera)
+- **Total Unit Sold & Profit Margin by Month** — trend of units sold against profit margin percentage across months
+- **GP and Sum of COGS by Product** — gross profit vs. cost of goods sold, broken down by product line
+- **Total Sale$ by Country** — revenue comparison across Germany, Canada, France, United States, and Mexico
+- **Date range slicer** — filters the entire report by a custom date window
 
----
+## 🛠️ Tools & Skills Used
 
-## 🛠️ Tools & Technologies Used
-* **Power BI Desktop:** Report design, canvas formatting, and visual layout.
-* **Power Query:** Data extraction, transformation, and cleansing (ETL).
-* **DAX (Data Analysis Expressions):** Custom measures and performance indicators.
+- **Power BI Desktop** — report building and data modeling
+- **DAX** — calculated measures for Profit Margin, Gross Profit, and COGS
+- **Data Visualization** — combo charts, bar charts, KPI cards, slicers
+- **Dashboard Design** — single-page layout optimized for quick insights
 
----
 
-## 📂 Repository Contents
-```text
-├── README.md               <-- Project documentation
-└── project 1.pbix          <-- Core Power BI report file
+
+
+ Key Insight
+
+Germany was the top-performing country by total sales at $6.2M, while October showed the strongest profit margin performance among the months analyzed.
+ 
+ 
+ What I Learned
+
+Building this project helped me get hands-on with Power BI fundamentals — from writing DAX measures to designing a dashboard that's both visually clean and easy to interpret at a glance.
